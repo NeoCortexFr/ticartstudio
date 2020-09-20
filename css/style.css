@@ -1,0 +1,74 @@
+body
+{
+    background-color: gray;
+	font-family: 'Orbitron', sans-serif;
+	
+}
+
+main
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1230px;
+    margin: auto;
+    background-color: dimgrey;
+}
+
+header
+{
+    text-align: center;
+}
+
+.navHome
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navHome a
+{
+    color: floralwhite;
+}
+
+.navHome a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer
+{
+    width: 1230px;
+}
+
+h2
+{
+    font-size: small;
+}
+
+.flexMenu 
+{
+    display: flex;
+}
+
+.flexMenu a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.fb, .web, .amis
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.fb, .web, .amis, a:hover
+{
+    color: blue;
+    text-decoration: underline;
+}
+
