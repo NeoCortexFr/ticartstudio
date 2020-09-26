@@ -39,6 +39,8 @@ header
 footer
 {
     width: 1230px;
+    background: repeating-linear-gradient(dimgrey, #000000);
+    color: white;
 }
 
 h2
@@ -71,4 +73,3 @@ h2
     color: blue;
     text-decoration: underline;
 }
-
